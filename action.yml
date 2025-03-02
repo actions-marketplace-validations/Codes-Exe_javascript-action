@@ -1,4 +1,4 @@
-name: 'Tell'
+name: 'Js. Action Schema '
 description: 'Wait a designated number of milliseconds'
 inputs:
   milliseconds:  # id of input
