@@ -1,4 +1,4 @@
-name: 'CodeTell'
+name: 'Tell'
 description: 'Wait a designated number of milliseconds'
 inputs:
   milliseconds:  # id of input
@@ -11,3 +11,4 @@ outputs:
 runs:
   using: 'node12'
   main: 'dist/index.js'
+  
