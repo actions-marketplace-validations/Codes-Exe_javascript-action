@@ -5,11 +5,12 @@ inputs:
     description: 'number of milliseconds to wait'
     required: true
     default: '1000'
-    İcon: 'Box'
-    Color: 'Red'
+    
 outputs:
   time: # output will be available to future steps
     description: 'The message to output'
+    İcon: 'Box'
+    Color: 'Red'
 runs:
   using: 'node12'
   main: 'dist/index.js'
