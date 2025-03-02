@@ -1,5 +1,7 @@
 name: 'Js. Action Schema '
 description: 'Wait a designated number of milliseconds'
+   İcon: 'Box'
+    Color: 'Red'
 inputs:
   milliseconds:  # id of input
     description: 'number of milliseconds to wait'
@@ -9,8 +11,7 @@ inputs:
 outputs:
   time: # output will be available to future steps
     description: 'The message to output'
-    İcon: 'Box'
-    Color: 'Red'
+ 
 runs:
   using: 'node12'
   main: 'dist/index.js'
